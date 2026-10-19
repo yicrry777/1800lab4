@@ -1,14 +1,14 @@
 {
-  "emerging_technology": "CRISPR-Cas genome editing",
-  "intended_application": "Establish a referral and shared-care pathway for licensed ex vivo CRISPR therapy for people with recurrent sickle-cell vaso-occlusive crises; decide whether to create an in-house treatment program later.",
-  "organization": "Hypothetical US regional hospital with no existing gene-editing manufacturing or hematopoietic stem-cell transplant unit",
-  "industry_sector": "US healthcare",
-  "business_need": "Improve access to a potentially transformative treatment while keeping patients safe and preserving scarce clinical resources.",
-  "users_stakeholders": "Eligible patients and families, hematologists, transplant centers, payers, hospital leadership and ethics committee",
-  "adoption_posture": "Conservative and risk-averse",
-  "capabilities_constraints": "Can coordinate hematology care and referrals; lacks transplant infrastructure, gene-therapy manufacturing and dedicated long-term follow-up capacity. Insurance and travel arrangements are unknown.",
-  "risk_consequence_context": "High and partly irreversible clinical consequences; conditioning, engraftment, off-target effects and access inequity need specialist oversight.",
-  "management_question": "Within 18 months, should the hospital open its own program, establish a specialist referral pathway, or wait?",
+  "emerging_technology": "Engineered quantum entanglement: generation, distribution and verification of entangled states as a usable resource",
+  "intended_application": "Evaluate an entanglement-based quantum key distribution (QKD) link between two offices; compare it with a standards-based post-quantum cryptography migration.",
+  "organization": "Hypothetical mid-sized US financial institution",
+  "industry_sector": "Financial services and information security",
+  "business_need": "Protect long-lived confidential inter-office data and modernize key exchange.",
+  "users_stakeholders": "Security engineers, customers, operations, auditors and leadership",
+  "adoption_posture": "Conservative; requires independent security review and operational continuity",
+  "capabilities_constraints": "Two sites have ordinary telecom links; no dedicated dark fiber, quantum hardware team or verified site-specific QKD integration. Budget and traffic data are unknown.",
+  "risk_consequence_context": "Production key-management failure could disrupt service or expose sensitive data. Hardware and physical-link dependency are significant.",
+  "management_question": "Within 18 months, should the institution deploy entanglement-based QKD in production, fund a bounded feasibility pilot, or prioritize a standards-based PQC migration?",
   "time_horizon": "18 months",
-  "additional_context": "Hypothetical organization; do not infer actual patient counts, payer coverage or unit costs. Check current FDA labeling before clinical claims."
+  "additional_context": "Hypothetical organization. Do not conflate all QKD with entanglement-based QKD. Treat experimental field links as demonstrations, not proof of production security."
 }
