@@ -1,0 +1,66 @@
+{
+  "agent": {
+    "name": "Promethean Technology Classification Agent",
+    "specialty": "Scale and breadth of technological significance",
+    "version": "0.2"
+  },
+  "analytical_question": "Is CRISPR-Cas incremental, breakthrough or potentially Promethean, and how much should that potential influence this regional hospital's 18-month sickle-cell therapy decision?",
+  "general_et_finding": "Provisional classification: potentially Promethean. RNA-guided programmable editing is a reusable enabling mechanism, with demonstrated clinical translation and separate crop-research utility. A route to major change in health and food systems is plausible, but broad equitable deployment and civilization-scale effects have not been established. The narrower breakthrough classification is strongly supported.",
+  "application_finding": "For this application, the highest verified stage is FDA approval for a specified ex vivo sickle-cell indication, with a bounded clinical study supporting benefit. This does not establish every patient's eligibility, durable long-term outcomes, or feasibility at this hospital. The general label does not by itself warrant local treatment rollout.",
+  "organization_specific_finding": "The hypothetical hospital can coordinate hematology care but lacks transplant and long-term follow-up infrastructure. Given high clinical consequence and a conservative posture, a specialist referral and shared-care pathway is more defensible than an in-house program now. Patient volume, payer coverage, travel support and partner capacity are unverified case assumptions or missing data.",
+  "evidence": [
+    {
+      "claim": "Cas9 DNA cleavage can be programmed using guide RNAs.",
+      "source_or_reference": "https://doi.org/10.1126/science.1225829",
+      "date_or_recency": "2012-06-28; checked 2026-10-18",
+      "evidence_type": "Primary mechanistic research",
+      "notes": "Supports a reusable mechanism; broad future impact is an inference."
+    },
+    {
+      "claim": "The FDA approved Casgevy for sickle-cell disease and announced an expanded pediatric indication in July 2026.",
+      "source_or_reference": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapy-young-children-sickle-cell-disease",
+      "date_or_recency": "2026-07-01; checked 2026-10-18",
+      "evidence_type": "Primary regulator announcement",
+      "notes": "Approval is specific to a product and indications, not generic CRISPR safety or local feasibility."
+    },
+    {
+      "claim": "In a single-group phase 3 study, 29 of 30 evaluable recipients were free of severe vaso-occlusive crises for at least 12 consecutive months.",
+      "source_or_reference": "https://www.nejm.org/doi/full/10.1056/NEJMoa2309676",
+      "date_or_recency": "2024-04-24; checked 2026-10-18",
+      "evidence_type": "Primary clinical study",
+      "notes": "Bounded sample and follow-up; no randomized comparison."
+    },
+    {
+      "claim": "Casgevy treatment requires full myeloablative conditioning and its label says off-target editing risk cannot be ruled out.",
+      "source_or_reference": "https://www.fda.gov/media/174615/download",
+      "date_or_recency": "Label revised 2026-03; checked 2026-10-18",
+      "evidence_type": "Regulatory prescribing information",
+      "notes": "March label was used for risks; July FDA announcement was used for the later indication change."
+    },
+    {
+      "claim": "CRISPR knockouts were used to test drought-tolerance gene function in wheat.",
+      "source_or_reference": "https://www.nature.com/articles/s41467-025-61943-3",
+      "date_or_recency": "2025-07-16; checked 2026-10-18",
+      "evidence_type": "Primary crop research",
+      "notes": "Supports cross-domain research utility, not a commercially deployed edited crop."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Strongest countercase: a successful product-specific clinical trial and crop target research do not demonstrate civilization-scale, affordable or equitable deployment.",
+    "Myeloablation and unresolved off-target risk constrain near-term clinical reach.",
+    "The hypothetical hospital's actual referral demand, finances, patient support and partner-center capacity were not measured."
+  ],
+  "confidence_and_uncertainty": "High confidence that CRISPR is at least breakthrough; moderate-low confidence in the provisional potentially Promethean label because broad-scale outcomes remain uncertain. Moderate confidence that referral planning is preferable to local rollout under the stated hypothetical constraints; the practical decision needs local verification.",
+  "value_opportunity_implication": "A referral pathway may improve access to a licensed option without assuming the hospital can safely perform treatment itself.",
+  "risk_governance_implication": "Require specialist oversight, informed consent, safety follow-up, equitable access planning and clear clinical authority; the agent cannot decide eligibility or treatment.",
+  "recommendation_management_implication": "For the next 18 months, evaluate a licensed specialist referral and shared-care agreement, including patient support, coverage and follow-up responsibilities. Defer an in-house program until transplant capability, governance, demand and resources are demonstrated. Do not use the general significance label as a substitute for those gates.",
+  "change_monitoring_triggers": [
+    "New FDA labeling or postmarketing safety findings",
+    "Verified local demand, coverage, travel support and referral-center capacity",
+    "Demonstrated hospital transplant and long-term monitoring capability"
+  ],
+  "abstention_or_more_information_needed": [
+    "Do not determine individual treatment eligibility or clinical treatment plans.",
+    "Obtain current local capacity, payer, referral and patient-support data before an implementation decision."
+  ]
+}
