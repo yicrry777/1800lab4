@@ -1,14 +1,14 @@
 {
-  "emerging_technology": "REPLACE",
-  "intended_application": "REPLACE",
-  "organization": "REPLACE",
-  "industry_sector": "REPLACE",
-  "business_need": "REPLACE",
-  "users_stakeholders": "REPLACE",
-  "adoption_posture": "REPLACE",
-  "capabilities_constraints": "REPLACE",
-  "risk_consequence_context": "REPLACE",
-  "management_question": "REPLACE",
-  "time_horizon": "REPLACE",
-  "additional_context": ""
+  "emerging_technology": "CRISPR-Cas genome editing",
+  "intended_application": "Use CRISPR knockout experiments to discover drought-tolerance targets in wheat, then decide whether to pursue contained trials and breeding work; no commercial trait is yet validated.",
+  "organization": "Hypothetical US agricultural biotechnology research startup",
+  "industry_sector": "Crop research and agricultural biotechnology",
+  "business_need": "Identify credible wheat drought-resilience targets for a future breeding pipeline.",
+  "users_stakeholders": "Plant scientists, growers, seed partners, regulators, local communities and investors",
+  "adoption_posture": "Aggressive research posture with staged go/no-go gates",
+  "capabilities_constraints": "Has molecular biology and greenhouse facilities; limited field-trial budget and no verified commercial variety or multi-location yield data.",
+  "risk_consequence_context": "Contained laboratory work is reversible; field releases and commercial seed deployment introduce ecological, regulatory and economic consequences.",
+  "management_question": "Over three years, should the team fund target discovery and controlled trials or announce a drought-resilient product?",
+  "time_horizon": "3 years",
+  "additional_context": "Hypothetical organization. Do not equate target discovery or greenhouse phenotypes with a deployed crop."
 }

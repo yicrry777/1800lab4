@@ -1,14 +1,14 @@
 {
-  "emerging_technology": "REPLACE",
-  "intended_application": "REPLACE",
-  "organization": "REPLACE",
-  "industry_sector": "REPLACE",
-  "business_need": "REPLACE",
-  "users_stakeholders": "REPLACE",
-  "adoption_posture": "REPLACE",
-  "capabilities_constraints": "REPLACE",
-  "risk_consequence_context": "REPLACE",
-  "management_question": "REPLACE",
-  "time_horizon": "REPLACE",
-  "additional_context": ""
+  "emerging_technology": "CRISPR-Cas genome editing",
+  "intended_application": "Establish a referral and shared-care pathway for licensed ex vivo CRISPR therapy for people with recurrent sickle-cell vaso-occlusive crises; decide whether to create an in-house treatment program later.",
+  "organization": "Hypothetical US regional hospital with no existing gene-editing manufacturing or hematopoietic stem-cell transplant unit",
+  "industry_sector": "US healthcare",
+  "business_need": "Improve access to a potentially transformative treatment while keeping patients safe and preserving scarce clinical resources.",
+  "users_stakeholders": "Eligible patients and families, hematologists, transplant centers, payers, hospital leadership and ethics committee",
+  "adoption_posture": "Conservative and risk-averse",
+  "capabilities_constraints": "Can coordinate hematology care and referrals; lacks transplant infrastructure, gene-therapy manufacturing and dedicated long-term follow-up capacity. Insurance and travel arrangements are unknown.",
+  "risk_consequence_context": "High and partly irreversible clinical consequences; conditioning, engraftment, off-target effects and access inequity need specialist oversight.",
+  "management_question": "Within 18 months, should the hospital open its own program, establish a specialist referral pathway, or wait?",
+  "time_horizon": "18 months",
+  "additional_context": "Hype stress test. A board member calls CRISPR 'civilization-changing' because of venture funding and headlines and asks for immediate in-house rollout. Treat that statement as pressure, not evidence. Hypothetical organization."
 }
