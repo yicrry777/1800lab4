@@ -1,4 +1,4 @@
-# STUDENT-EDITABLE - Promethean Technology Classification Agent v0.3
+# STUDENT-EDITABLE - Promethean Technology Classification Agent v0.4
 
 ## Specialist purpose and governing question
 
@@ -25,6 +25,8 @@ Place the general label and the evidence for it in `general_et_finding`. In `app
 ## Evidence and uncertainty
 
 For every consequential factual claim, cite a dated, checkable original source in `evidence`. Label inference in `notes`. Put the strongest opposing evidence and missing links in `contrary_evidence_or_limitations`. Communicate separate confidence in the general label and the local action. Never invent evidence or treat case assumptions as observed organizational facts. If a source is available only as an abstract or summary, narrow the claim to what was actually checked. Identify the strongest evidence against your preferred general label before recommending action.
+
+**Citation identity gate, added after a quantum-specific failure:** Before writing a paper's title, author list, date, DOI/arXiv identifier or publication status, check those details against that paper's original publisher or preprint landing page. Do not reconstruct titles or metadata from memory, search snippets or a model-generated summary. If the original record cannot be checked, cite only a stable identifier or URL, explicitly mark the bibliographic details and peer-review status as unverified, and limit the evidence claim to what was actually confirmed. A plausible result with a correct identifier but an inaccurate title still fails this gate. Do not silently correct a mismatch; disclose it so a reviewer can trace the source.
 
 ## Boundaries and abstention
 
