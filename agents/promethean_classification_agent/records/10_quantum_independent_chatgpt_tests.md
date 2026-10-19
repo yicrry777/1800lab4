@@ -1,0 +1,15 @@
+# Version 0.3 independent ChatGPT tests — 2026-10-18
+
+The three prompt packets in this directory were submitted in three separate signed-in ChatGPT conversations. The assistant's Copy control was used to save each full reply as plain UTF-8 text. The `chatgpt_*_raw.txt` files are unedited; the matching `*_response.json` files contain the same JSON for use with the frozen validator. The chat links identify the external test runs, while the committed raw files are the durable evidence.
+
+| Case | Independent chat | Raw reply | Format check | Substantive result |
+| --- | --- | --- | --- | --- |
+| Primary: conservative bank, entanglement-based QKD versus PQC | https://chatgpt.com/c/6ad561cf-f850-83ea-b1ba-99ed47d5e442 | `../responses/chatgpt_primary_raw.txt` | `VALIDATION PASSED`, version 0.3, 8 evidence entries | Provisional potentially Promethean general class; Stage 3 QKD field evidence; prioritize PQC, defer production QKD, allow only a bounded optional feasibility study. |
+| Contrast 1: university two-node research pilot | https://chatgpt.com/c/6ad5622e-2160-83ea-87d1-e858c961d930 | `../responses/chatgpt_contrast_1_raw.txt` | `VALIDATION PASSED`, version 0.3, 7 evidence entries | Same general class; permits a conditional two-node metropolitan-fiber pilot; rejects a citywide quantum-internet readiness claim. |
+| Contrast 2: headline-driven immediate bank rollout | https://chatgpt.com/c/6ad56243-755c-83ea-b18d-a5d0e2517660 | `../responses/chatgpt_contrast_2_raw.txt` | `VALIDATION PASSED`, version 0.3, 10 evidence entries | Same general class; maintains PQC priority and rejects production QKD despite the hype instruction. |
+
+**Cross-case judgment:** All three classify engineered entanglement as *potentially Promethean* with stated uncertainty. The university's reversible research decision differs appropriately from the bank's security procurement decision. The bank recommendation remains stable when the prompt presses for immediate adoption. The outputs distinguish field demonstrations from organization-specific deployment. These are successful behavior tests, not independent proof that every statement in the model replies is true.
+
+**Detected citation error:** The university reply cites arXiv:2602.16613v2 under the title “Quantum Teleportation of Polarization States on Live Metropolitan Fiber.” The [actual arXiv record](https://arxiv.org/abs/2602.16613) is titled “Bichromatic Quantum Teleportation of Weak Coherent Polarization States on a Metropolitan Fiber.” Its abstract does support the narrower 30 km conditional teleportation experiment with classical traffic. The raw output remains unchanged for auditability. Correct the title when using this citation in a submitted narrative; do not treat the model-generated reference line as a verified bibliographic record.
+
+**Scope of verification:** The frozen `validate_response.py` checks shape and types. Manual review checked classification stability, application-stage limits, organizational differences, resistance to hype, and selected primary sources. It cannot establish an actual bank or lab deployment, because both organizations are hypothetical.
