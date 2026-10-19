@@ -5,10 +5,12 @@
 | Field | Student record |
 | --- | --- |
 | Student | Shuoying Wang |
-| Assignment / specialist agent | Week 6 Assignment 4, Promethean Technology Classification Agent, version 0.3 |
+| Assignment / specialist agent | Week 6 Assignment 4, Promethean Technology Classification Agent, version 0.4 |
 | Date | 2026-10-18 |
 | GitHub repository | https://github.com/yicrry777/1800lab4 |
-| Branch | `codex/assignment-4-quantum-entanglement` |
+| Version 0.4 retest branch | `codex/assignment-4-quantum-citation-retest` |
+| Version 0.4 tested candidate commit | `0010be6db2a90af0cda0fe854700c56fffc29ab1` (before this Agent Record metadata update) |
+| Previous merged version 0.3 commit | `8b25a6e1cc31e1adf706c657b4868f8bba60f19f` |
 | Frozen scaffold version | MASY1800_ET_Agent_Scaffold_v1_0; `core/` and `tools/` unchanged |
 
 ## B. Specialist purpose and context
@@ -33,7 +35,7 @@
 
 ## D. Evidence and testing
 
-The original-source dossier is `sources.md`. Strong counterevidence is the gap between small experimental links and secure, economical, large-scale operations; NIST documents physical constraints and a classical-computer alternative. Old CRISPR version 0.1–0.2 tests remain in records/00–08 and the initial response file for audit history. Version 0.3 quantum prompts, three independent ChatGPT conversation links, verbatim raw replies, outcomes and one detected citation error are documented in `09_quantum_prompt_and_core_check.md`, `10_quantum_independent_chatgpt_tests.md` and `11_quantum_final_verification.md`. The scaffold validator checks JSON shape only; source meaning and application stage are checked separately.
+The original-source dossier is `sources.md`. Strong counterevidence is the gap between small experimental links and secure, economical, large-scale operations; NIST documents physical constraints and a classical-computer alternative. Old CRISPR version 0.1–0.2 tests remain in records/00–08 and the initial response file for audit history. Version 0.3 quantum prompts, three independent ChatGPT conversation links, verbatim raw replies, outcomes and the detected citation failure are documented in records/09–12. Version 0.4's targeted instruction change, fresh ChatGPT replies, source checks and cross-case retest are in `13_quantum_v04_prompt_verification.md` and `14_quantum_v04_independent_retest.md`. The scaffold validator checks JSON shape only; source meaning and application stage are checked separately.
 
 ## E. Team handoff and AI verification note
 
@@ -41,4 +43,4 @@ The original-source dossier is `sources.md`. Strong counterevidence is the gap b
 
 **Integration rule:** General significance is distinct from application maturity and organization readiness. A potentially Promethean label never itself warrants immediate adoption.
 
-**AI use and check:** Codex prepared the revised agent, cases and source dossier. Three independent ChatGPT runs supply unedited test responses. The primary sources, case logic, frozen-core check and response structure were verified separately, with each modification and verification retained in Git history. The university reply's inaccurate title for arXiv:2602.16613 is corrected in the source dossier and test review without altering its raw text.
+**AI use and check:** Codex prepared the agent, cases and source dossier. Independent ChatGPT conversations supplied both the unedited version 0.3 test responses and three fresh version 0.4 retest responses. A wrong paper title in the version 0.3 university output was checked against the arXiv original record, preserved as a failure, and addressed by a citation identity rule. The version 0.4 university reply omitted that wrong citation; selected new citations were checked against original publisher or issuing-organization records. The general classification and bounded management advice remained stable. The frozen-core and JSON structure checks passed; factual source review remains a separate human responsibility.
