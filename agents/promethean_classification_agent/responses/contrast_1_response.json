@@ -1,0 +1,52 @@
+{
+  "agent": {
+    "name": "Promethean Technology Classification Agent",
+    "specialty": "Scale and breadth of technological significance",
+    "version": "0.2"
+  },
+  "analytical_question": "Is CRISPR-Cas incremental, breakthrough or potentially Promethean, and how much should that potential influence this agricultural startup's three-year wheat research decision?",
+  "general_et_finding": "Provisional classification: potentially Promethean. RNA-guided programmable editing is a reusable enabling mechanism, with demonstrated clinical translation and separate crop-research utility. A route to major change in health and food systems is plausible, but broad equitable deployment and civilization-scale effects have not been established. The narrower breakthrough classification is strongly supported.",
+  "application_finding": "For wheat drought-target discovery, the highest verified stage in the cited paper is research, including CRISPR knockout experiments and field observations of research lines. Those results help test gene function; they do not establish a commercial CRISPR-edited drought-resistant variety, replicated multi-location yield benefit, or deployment at scale.",
+  "organization_specific_finding": "The hypothetical startup has laboratory and greenhouse capacity, so contained target discovery fits its aggressive research posture. Its limited field budget and absent commercial variety call for stage gates before larger trials or product claims. Research appetite does not alter the general classification or evidence stage.",
+  "evidence": [
+    {
+      "claim": "Cas9 DNA cleavage can be programmed using guide RNAs.",
+      "source_or_reference": "https://doi.org/10.1126/science.1225829",
+      "date_or_recency": "2012-06-28; checked 2026-10-18",
+      "evidence_type": "Primary mechanistic research",
+      "notes": "Supports a reusable mechanism; broad future impact is an inference."
+    },
+    {
+      "claim": "An FDA-approved CRISPR-based sickle-cell therapy demonstrates translation in a domain distinct from crops.",
+      "source_or_reference": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-gene-therapy-young-children-sickle-cell-disease",
+      "date_or_recency": "2026-07-01; checked 2026-10-18",
+      "evidence_type": "Primary regulator announcement",
+      "notes": "Does not establish agricultural efficacy."
+    },
+    {
+      "claim": "CRISPR knockout lines were used to investigate wheat drought-tolerance gene function; the paper reports research-field observations but no commercial edited variety.",
+      "source_or_reference": "https://www.nature.com/articles/s41467-025-61943-3",
+      "date_or_recency": "2025-07-16; checked 2026-10-18",
+      "evidence_type": "Primary crop research",
+      "notes": "Research-stage evidence; do not merge knockout, overexpression and natural-allele results into a product claim."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Strongest countercase: cross-domain mechanism and research use do not demonstrate broad agricultural deployment or civilization-scale food-system impact.",
+    "The cited wheat paper does not validate this startup's target, edited commercial line, multi-location yield or ecological effects.",
+    "The organization's field budget and product pipeline are hypothetical inputs, not audited facts."
+  ],
+  "confidence_and_uncertainty": "High confidence that CRISPR is at least breakthrough; moderate-low confidence in the provisional potentially Promethean label. Moderate confidence that contained discovery with go/no-go gates fits the stated startup; confidence in any product launch claim is low because the necessary evidence is absent.",
+  "value_opportunity_implication": "The near-term value is better target knowledge and an option for future breeding, conditional on reproducible trait and agronomic evidence.",
+  "risk_governance_implication": "Apply containment, biosafety, field-trial and jurisdiction-specific regulatory review before environmental release; keep commercial claims tied to measured outcomes.",
+  "recommendation_management_implication": "Fund bounded target discovery and replication in controlled conditions. Advance to field work only after target and trait evidence plus regulatory review; require multi-location yield and safety evidence before product announcements. Do not announce a drought-resistant product now.",
+  "change_monitoring_triggers": [
+    "Reproducible edit-specific drought and yield effects in relevant wheat backgrounds",
+    "Independent multi-location field results and ecological assessment",
+    "Applicable regulatory status and verified seed-partner deployment capacity"
+  ],
+  "abstention_or_more_information_needed": [
+    "Do not claim commercial readiness or regulatory clearance from the cited target-discovery study.",
+    "Obtain the startup's own target, yield, biosafety, budget and jurisdiction evidence before a field or product decision."
+  ]
+}
